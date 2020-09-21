@@ -16,6 +16,7 @@ import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card'
 import { ChartsModule } from 'ng2-charts';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { DbatableComponent } from './dbatable/dbatable.component';
 
 
 
@@ -23,7 +24,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    DbatableComponent
   ],
   imports: [
     BrowserModule,
